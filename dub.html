@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	a {
+		background-image: url(./bartags11.gif);
+	}
+	body {
+	background-image: url(./dub.jpg);
+	}
+	</style>
+	<title>Code.D.Station</title>
+	<link href="index.css" rel="stylesheet">
+</head>
+<body>
+<!-- About me Section start -->
+<div id ="content">
+	<div id="player">
+		<!-- Some Music for fun -->
+		<audio autoplay controls>
+		<source src="http://ice1.somafm.com/dubstep-256-mp3" type="audio/mpeg">
+		</audio>
+	</div>
+</div>
+<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn"
+onclick="closeNav ()">&times;</a>
+	<a href="cliQ.html">CliqHop</a>
+	<a href="index.html">Code.D.Station</a>
+</div>
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav ()">open</span>
+<div id="main">
+	<h2><font color="red">Dubby Doo</font></h2>
+	<p><font color="red">Dubby Doo is more than just Dubstep. Focusing on
+         Bass Music, but trying to play more than just Skrillex-style
+         music. You'll hear music by artists like Bassnectar, Tipper, JaFU,
+         Phutureprimitive, Opiuo and Flux Pavilion. And take that warning about
+         speaker damage seriously, we blew some expensive headphones listening
+         to this channel!</font></p>
+	<span style="font-size:30px;cursor:pointer;color:red;"
+	onclick="openNav()">&#9776; open</span>
+</div>
+<script>
+function openNav() {
+	document.getElementById("mySidenav").style.width = "250px";
+	document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+<!-- About me section end -->
+</body>
+</html>
